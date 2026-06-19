@@ -4,7 +4,7 @@ Este repositório contém os códigos em Python e os scripts de rede que eu dese
 
 ## 🛠️ O que foi usado
 * **Python**: Linguagem principal para rodar o servidor da central.
-* **paho-mqtt (Python)**: Biblioteca que usei para fazer o Hub receber as mensagens dos sensores que a Ana programou.
+* **paho-mqtt (Python)**: Biblioteca que usei para fazer o Hub receber as mensagens dos sensores.
 * **pyotp (Python)**: Biblioteca para gerar o código de verificação em duas etapas (MFA) no login.
 * **Shell Script / iptables**: Para simular as regras de firewall que separam as redes.
 
