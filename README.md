@@ -1,6 +1,6 @@
 # Hub Central - Casa Inteligente (Back-end em Python)
 
-Este repositório contém os códigos em Python e os scripts de rede que eu desenvolvi para o Hub Central do nosso projeto de Casa Inteligente. O foco aqui foi resolver os problemas de segurança digital que mapeamos no relatório.
+Este repositório contém os códigos em Python e os scripts de rede que foi desenvolvido para o Hub Central do projeto da Casa Inteligente. O foco aqui foi resolver os problemas de segurança digital que foi mapeado no relatório.
 
 ## 🛠️ O que foi usado
 * **Python**: Linguagem principal para rodar o servidor da central.
@@ -13,10 +13,10 @@ Este repositório contém os códigos em Python e os scripts de rede que eu dese
 ## 🛡️ O que os códigos resolvem (Mitigações)
 
 1. **Proteção contra invasão por senha (Software):**
-   * No arquivo `auth.py`, criei a lógica para exigir autenticação em duas etapas (MFA). Também coloquei uma trava simples: se o mesmo IP errar a senha mais de 3 vezes, o código bloqueia temporariamente as tentativas para evitar ataques de força bruta.
+   * No arquivo `auth.py`, foi criada a lógica para exigir autenticação em duas etapas (MFA). Também foi colocado uma trava simples: se o mesmo IP errar a senha mais de 3 vezes, o código bloqueia temporariamente as tentativas para evitar ataques de força bruta.
 
 2. **Isolamento de Redes (Rede):**
-   * No arquivo `firewall_rules.sh`, criei um script de firewall. Ele serve para separar os aparelhos em 3 redes virtuais (VLANs: IoT, Servidor e Principal). A regra principal impede que alguém que invadir uma lâmpada ou câmera consiga acessar os computadores e celulares da rede principal.
+   * No arquivo `firewall_rules.sh`, foi criado um script de firewall. Ele serve para separar os aparelhos em 3 redes virtuais (VLANs: IoT, Servidor e Principal). A regra principal impede que alguém que invadir uma lâmpada ou câmera consiga acessar os computadores e celulares da rede principal.
 
 ---
 
